@@ -1,38 +1,43 @@
 .App {
   text-align: center;
+  font-family: Arial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 8px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  margin-left: 10px;
+  padding: 6px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notes-block {
+  position: absolute;
+  background: #fffa65;
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: grab;
+  min-width: 200px;
+  max-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto; /* scroll if too many notes */
+}
+
+.note-item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin: 5px 0;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background: red;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
 }
