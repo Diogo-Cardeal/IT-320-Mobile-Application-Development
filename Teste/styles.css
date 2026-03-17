@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+
+#phrase {
+    font-size: 18px;
+    color: blue;
+    margin-top: 10px;
+}
