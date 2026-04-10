@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: Arial;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 6px 10px;
+}
+
+.notes-block {
+  position: absolute;
+  background: #fffa65;
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: grab;
+  min-width: 200px;
+  max-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto; /* scroll if too many notes */
+}
+
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
+}
