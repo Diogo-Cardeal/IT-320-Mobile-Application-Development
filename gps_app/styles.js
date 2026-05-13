@@ -1,0 +1,198 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#0b1320',
+  },
+  content: {
+    padding: 18,
+    paddingBottom: 36,
+  },
+  header: {
+    marginBottom: 16,
+    paddingTop: 10,
+  },
+  eyebrow: {
+    color: '#99f6e4',
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0,
+    marginBottom: 6,
+    textTransform: 'uppercase',
+  },
+  title: {
+    color: '#f8fafc',
+    fontSize: 34,
+    fontWeight: '800',
+    letterSpacing: 0,
+  },
+  subtitle: {
+    color: '#cbd5e1',
+    fontSize: 16,
+    lineHeight: 23,
+    marginTop: 6,
+  },
+  mapFrame: {
+    backgroundColor: '#d9f99d',
+    borderRadius: 8,
+    height: 330,
+    marginBottom: 14,
+    overflow: 'hidden',
+  },
+  map: {
+    flex: 1,
+  },
+  pendingState: {
+    alignItems: 'center',
+    backgroundColor: '#f8fafc',
+    flex: 1,
+    justifyContent: 'center',
+    padding: 24,
+  },
+  pendingTitle: {
+    color: '#102a43',
+    fontSize: 18,
+    fontWeight: '800',
+    marginTop: 14,
+    textAlign: 'center',
+  },
+  pendingText: {
+    color: '#486581',
+    fontSize: 14,
+    lineHeight: 20,
+    marginTop: 6,
+    textAlign: 'center',
+  },
+  errorBox: {
+    backgroundColor: '#fee2e2',
+    borderColor: '#fca5a5',
+    borderRadius: 8,
+    borderWidth: 1,
+    marginBottom: 14,
+    padding: 14,
+  },
+  errorTitle: {
+    color: '#991b1b',
+    fontSize: 14,
+    fontWeight: '800',
+    marginBottom: 4,
+  },
+  errorText: {
+    color: '#7f1d1d',
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  actionRow: {
+    flexDirection: 'row',
+    gap: 10,
+    marginBottom: 14,
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#0f766e',
+    borderRadius: 8,
+    flex: 1,
+    justifyContent: 'center',
+    minHeight: 50,
+    paddingHorizontal: 14,
+  },
+  secondaryButton: {
+    backgroundColor: '#334155',
+  },
+  disabledButton: {
+    backgroundColor: '#64748b',
+  },
+  pressedButton: {
+    opacity: 0.82,
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 15,
+    fontWeight: '800',
+    textAlign: 'center',
+  },
+  panel: {
+    backgroundColor: '#f8fafc',
+    borderRadius: 8,
+    marginBottom: 14,
+    padding: 14,
+  },
+  panelTitle: {
+    color: '#102a43',
+    fontSize: 17,
+    fontWeight: '800',
+    marginBottom: 12,
+  },
+  dataGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+  },
+  dataPill: {
+    backgroundColor: '#e0f2fe',
+    borderRadius: 8,
+    flexBasis: '47%',
+    flexGrow: 1,
+    minHeight: 70,
+    padding: 12,
+  },
+  dataLabel: {
+    color: '#0369a1',
+    fontSize: 12,
+    fontWeight: '800',
+    marginBottom: 6,
+    textTransform: 'uppercase',
+  },
+  dataValue: {
+    color: '#0f172a',
+    fontSize: 17,
+    fontWeight: '800',
+  },
+  photoLayout: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  photo: {
+    backgroundColor: '#cbd5e1',
+    borderRadius: 8,
+    height: 136,
+    width: 118,
+  },
+  photoDetails: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  photoTitle: {
+    color: '#102a43',
+    fontSize: 16,
+    fontWeight: '800',
+    marginBottom: 8,
+  },
+  photoMeta: {
+    color: '#334155',
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  emptyPhoto: {
+    alignItems: 'center',
+    backgroundColor: '#ecfeff',
+    borderColor: '#a5f3fc',
+    borderRadius: 8,
+    borderWidth: 1,
+    justifyContent: 'center',
+    minHeight: 120,
+    padding: 18,
+  },
+  emptyTitle: {
+    color: '#0e7490',
+    fontSize: 16,
+    fontWeight: '800',
+  },
+  emptyText: {
+    color: '#155e75',
+    fontSize: 14,
+    marginTop: 4,
+    textAlign: 'center',
+  },
+});
