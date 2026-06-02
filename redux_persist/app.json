@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Lesson 12 Contacts",
+    "slug": "lesson12-async-redux-persist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
